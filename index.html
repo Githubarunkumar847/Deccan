@@ -1,24 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Documents - Deccan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun's Document Hub</title>
   <style>
     body {
-      font-family: sans-serif;
-      text-align: center;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 30px;
+    }
+    header {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
     }
     iframe {
-      width: 90%;
-      height: 80vh;
-      border: none;
+      width: 100%;
+      max-width: 900px;
+      height: 600px;
+      border: 0;
+      box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+      border-radius: 10px;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
-  <h1>My Documents</h1>
-  <p>All important links are below:</p>
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyM0vV2dhczWL_1rn0P60VM-_J9W5JQKiGw0A6ZvSinCzV4nKCrpzoTqZ89evJa2aK2hgiya45SNpv/pubhtml"></iframe>
+  <header>📄 Arun's Document Hub</header>
+  <p>Here are my important documents. Click and explore!</p>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyM0vV2dhczWL_1rn0P60VM-_J9W5JQKiGw0A6ZvSinCzV4nKCrpzoTqZ89evJa2aK2hgiya45SNpv/pubhtml" allowfullscreen></iframe>
+  <div class="footer">Hosted with ❤️ on GitHub Pages</div>
 </body>
 </html>
